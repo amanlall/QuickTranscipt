@@ -631,8 +631,8 @@ const TranscriptionUI: React.FC<TranscriptionUIProps> = () => {
   const [aiEnhanced, setAiEnhanced] = useState<string | null>(null);
   const [aiError, setAiError] = useState<string | null>(null);
 
-  const AZURE_OPENAI_ENDPOINT = 'https://amlal-ma49fkua-eastus2.cognitiveservices.azure.com/openai/deployments/o4-mini/chat/completions?api-version=2025-01-01-preview';
-  const AZURE_OPENAI_KEY = '3na3qswZokrQo03Crv7za8yLkt5iF9PTNcJ9j7EdZIgwho95bVnaJQQJ99BDACHYHv6XJ3w3AAAAACOG6TQl';
+  const AZURE_OPENAI_ENDPOINT = '';
+  const AZURE_OPENAI_KEY = '';
 
   const aiPreprompt = `You are an expert note-taker. Given the following raw meeting or idea notes, break them down into clear, concise, actionable bullet points and sections. Make the notes easy to review and understand for a human. Format the output in markdown if possible.`;
 
