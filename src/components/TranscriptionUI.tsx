@@ -265,7 +265,7 @@ const TranscriptionUI: React.FC<TranscriptionUIProps> = () => {
 
   // Azure Speech Services configuration
   const AZURE_SPEECH_ENDPOINT = 'https://eastus2.api.cognitive.microsoft.com/sts/v1.0/issueToken';
-  const AZURE_SPEECH_KEY = '3na3qswZokrQo03Crv7za8yLkt5iF9PTNcJ9j7EdZIgwho95bVnaJQQJ99BDACHYHv6XJ3w3AAAAACOG6TQl';
+  const AZURE_SPEECH_KEY = '';
   const AZURE_SPEECH_REGION = 'eastus2';
 
   // Add state for Azure Speech Services
